@@ -7,5 +7,13 @@ export default[
         link: "projects/scrimba/bbq/bbq.html",
         blogLink: null,
         isFeatured: true
+    },
+    {
+        id: 2,
+        title: "Role Playing Game",
+        description: "My most complex JavaScript app to date.Simple dice based role playing game featuring multiple monsters to defeat. Utilized classes, Object. assign(), constructor, external resource files, setTimeout(), arrow functions, .map(), and .join().",
+        link: "projects/scrimba/rpg/",
+        blogLink: null,
+        isFeatured: true 
     }
 ]
