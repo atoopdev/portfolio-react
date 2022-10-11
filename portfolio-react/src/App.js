@@ -7,15 +7,13 @@ function App() {
 const projectElements = ProjectData.map((project)=>{
   return <ProjectCard
   key={project.id}
-  project={project}
-  isMainPage={"true"} />
+  project={project} />
 })
 
 console.log("projectElements: ", projectElements)
 
   return (
     <div className="App">
-     Project listing:
      <div className="featured-projects">{projectElements}</div>
     </div>
   );
