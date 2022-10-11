@@ -17,4 +17,14 @@ export default[
         blogLink: null,
         isFeatured: true 
     }
+    ,
+    {
+        id: 3,
+        title: "Color Scheme Generator",
+        description: "The app takes a seed hexadecimal color and color palette selection via a form and then requests a color palette from The Color API. The Color API returns a data object which is then used to populate the provide color palette.",
+        img: "images/color-scheme.jpg",
+        link: "projects/scrimba/color-scheme-generator/colorschemegen.html",
+        blogLink: null,
+        isFeatured: true 
+    }
 ]
