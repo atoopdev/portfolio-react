@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './index.css';
 import ProjectData from "./data"
 import ProjectCard from "./components/projectcard"
+import About from "./components/about"
 
 function App() {
 const projectElements = ProjectData.map((project)=>{
@@ -16,6 +17,7 @@ console.log("projectElements: ", projectElements)
 
   return (
     <div className="App">
+      <About />
       <div className="featured-projects">
      <section className="content_wrapper">
       <h2>Featured projects</h2>
