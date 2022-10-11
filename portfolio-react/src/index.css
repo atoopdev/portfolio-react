@@ -1,13 +1,33 @@
-body {
+/*  color palette
+https://coolors.co/c2c7cb-101c4d-8c99a2-b7990d-2f2504
+#C2C7CB - silver sand
+#101C4D - royal blue dark
+#0A1233 - oxford blue
+#8C99A2 - cadet grey
+#B7990D - lemon curry
+#E5BE10 - saffron
+#2F2504 - olive drab 7
+*/
+
+html { 
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+} 
+
+/* Global Styles */
+body{
+  color: #0A1233;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+img {
+  width: 300px;
 }
