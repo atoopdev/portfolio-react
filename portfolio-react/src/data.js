@@ -122,8 +122,8 @@ export default[
         id: 13,
         title: "Order Summary Component",
         description: "This is my solution for the Frontend Mentor Order Summary Component challenge. For this project participants were instructed to build out an order summary card to match provided designed images, including a couple hover states. This is my first Frontend Mentor challange and I really enjoyed it.",
-        img:"images/order-summary.jpg",
-        link: "projects/frontendmentor/order-summary/",
+        img:"images/order-summary.png",
+        link: "projects/frontendmentor/order-summary-component/",
         blogLink: null,
         isFeatured: false 
     }
