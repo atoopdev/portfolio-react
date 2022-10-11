@@ -7,7 +7,8 @@ function App() {
 const projectElements = ProjectData.map((project)=>{
   return <ProjectCard
   key={project.id}
-  project={project}/>
+  project={project}
+  isMainPage={"true"} />
 })
 
 console.log("projectElements: ", projectElements)

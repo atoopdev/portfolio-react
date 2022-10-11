@@ -1,6 +1,7 @@
 import React from "react"
 
 export default function ProjectCard(props){
+    console.log("isMainPage: ", props.isMainPage)
     
     return <div className="project-Card">
         <h1 className="project-title">{props.project.title}</h1>
