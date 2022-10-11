@@ -66,6 +66,22 @@ h3{
   padding: 60px 0;  /* 60px prev value pushes content in on top and bottom to eliminate gaps between sections */
 }
 
+/* About */
+
+header{
+  background: #101C4D;
+  color: #C2C7CB;
+}
+
+.header-item{
+  overflow: hidden;
+}
+
+header h1,
+header h2{
+  color: #E5BE10;
+}
+
 /* featured projects */
 
 .featured-projects{
