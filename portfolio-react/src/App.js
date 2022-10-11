@@ -14,7 +14,10 @@ console.log("projectElements: ", projectElements)
 
   return (
     <div className="App">
-     <div className="featured-projects">{projectElements}</div>
+     <div className="content-wrapper featured-projects">
+      <h2>Featured projects</h2>
+      {projectElements}
+      </div>
     </div>
   );
 }
