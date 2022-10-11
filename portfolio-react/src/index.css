@@ -31,3 +31,33 @@ body{
 img {
   width: 300px;
 }
+
+a{
+  color: #E5BE10;
+}
+a:hover{
+  text-decoration: none;
+}
+
+h1{
+  font-size: 100px;
+  line-height: 1;
+}
+h2{
+  margin: 0; /* eliminates extra space at top of each section */
+  font-size: 45px;
+}
+
+h1, h2{
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  margin: 0;
+
+}
+
+.content_wrapper{
+  max-width: 800px; 
+  width: 85%; /* applies when viewport < 800px*/
+  margin: 0 auto; /* centers content wrapper horizontally */
+  padding: 60px 0;  /* 60px prev value pushes content in on top and bottom to eliminate gaps between sections */
+}
