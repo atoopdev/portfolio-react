@@ -14,10 +14,11 @@ console.log("projectElements: ", projectElements)
 
   return (
     <div className="App">
-     <div className="content-wrapper featured-projects">
+     <section className="content_wrapper featured-projects">
       <h2>Featured projects</h2>
+      <p>View selected projects below. Complete list of projects can be found at <a href="https://www.amandatoop.com/projects.html">https://www.amandatoop.com/projects</a>.</p>
       {projectElements}
-      </div>
+      </section>
     </div>
   );
 }

@@ -55,9 +55,48 @@ h1, h2{
 
 }
 
+h3{
+  margin-bottom:0;
+}
+
 .content_wrapper{
   max-width: 800px; 
   width: 85%; /* applies when viewport < 800px*/
   margin: 0 auto; /* centers content wrapper horizontally */
   padding: 60px 0;  /* 60px prev value pushes content in on top and bottom to eliminate gaps between sections */
+}
+
+/* featured projects */
+
+.featured-projects{
+  background: #8c99a2;
+}
+
+.projectcard-img{
+  margin-bottom: 10px;
+  height: 250px;
+  object-fit:cover;
+}
+
+.project-card .btn{
+  color:#c2c7cb;
+  background:#101c4d;
+  text-decoration:none;
+  padding: 8px;
+  border-radius:4px;
+  /* required to place inside padding space */
+  display:inline-block; 
+}
+
+.project-card .btn:hover{
+  background: rgba(16,28,77,80%);
+}
+
+.project-card{
+  overflow: hidden;
+}
+
+.project-card h3{
+  /* line up h3 with top of img floated to left */
+  margin-top:0;
 }
