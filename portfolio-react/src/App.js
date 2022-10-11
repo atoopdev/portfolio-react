@@ -5,9 +5,11 @@ import ProjectCard from "./components/projectcard"
 
 function App() {
 const projectElements = ProjectData.map((project)=>{
-  return <ProjectCard
-  key={project.id}
-  project={project} />
+  if(project.isFeatured===true){
+    return <ProjectCard
+    key={project.id}
+    project={project} />
+  }
 })
 
 console.log("projectElements: ", projectElements)
