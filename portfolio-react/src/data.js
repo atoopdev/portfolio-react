@@ -27,4 +27,15 @@ export default[
         blogLink: null,
         isFeatured: true 
     }
+    ,
+    {
+        id: 4,
+        title: "Movie Watchlist",
+        description: "This app allows a user to search for movies based on title using the OMDB API. The OMDB API returns a list of the top ten movie matches. Users can then add/remove movies from a watchlist that is saved in localStorage.",
+        img:"images/movie-watchlist.jpg",
+        link: "projects/scrimba/movie-watchlist/",
+        blogLink: null,
+        isFeatured: true 
+    }
+]
 ]
