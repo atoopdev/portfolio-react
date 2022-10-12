@@ -4,10 +4,6 @@ import ProjectData from "./data"
 import ProjectCard from "./components/projectcard"
 import About from "./components/about"
 
-import NavBar from "./components/NavBar"
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
-import Home from "./components/Pages/index"
-import Projects from "./components/Pages/projects"
 
 
 function App() {
