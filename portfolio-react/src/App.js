@@ -5,15 +5,15 @@ import ProjectCard from "./components/projectcard"
 import About from "./components/about"
 
 function App() {
-const projectElements = ProjectData.map((project)=>{
-  if(project.isFeatured===true){
-    return <ProjectCard
-    key={project.id}
-    project={project} />
-  }
-})
+  const projectElements = ProjectData.map((project)=>{
+    if(project.isFeatured===true){
+      return <ProjectCard
+      key={project.id}
+      project={project} />
+      }
+    })
 
-console.log("projectElements: ", projectElements)
+  console.log("projectElements: ", projectElements)
 
   return (
     <div className="App">
